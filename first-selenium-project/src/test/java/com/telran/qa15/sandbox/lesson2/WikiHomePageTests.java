@@ -1,5 +1,6 @@
 package com.telran.qa15.sandbox.lesson2;
 
+import com.telran.qa15.sandbox.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class WikiHomePageTests extends TestBase  {
+public class WikiHomePageTests extends TestBase {
 
   @Test
   public void testOpeningEnglishWiki(){

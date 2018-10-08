@@ -1,4 +1,4 @@
-package com.telran.qa15.sandbox.lesson2;
+package com.telran.qa15.sandbox;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,20 +9,27 @@ import org.testng.annotations.BeforeMethod;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
-  WebDriver wd;
+  public WebDriver wd;
 
   @BeforeMethod
   public void setUp (){
     wd = new ChromeDriver();
-    wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-    openWikipedia();
-    //Thread.sleep(4000);
-    //mojno tak esli ne rabotaet
-
+    wd.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+    openWiki();
   }
 
-  public void openWikipedia() {
-    wd.get("https://www.wikipedia.org/");
+  public void openWiki() {
+    wd.navigate().to("https://www.wikipedia.org/");
+  }
+
+
+
+  public void clickOnTheButtonSearch() {
+    wd.findElement(By.cssSelector("i.sprite.svg-search-icon")).click();
+  }
+
+  public void typeInFieldSearch() {
+    wd.findElement(By.id("searchInput")).sendKeys("java");
   }
 
   public void findAndClickOnTheEnglishLink() {
