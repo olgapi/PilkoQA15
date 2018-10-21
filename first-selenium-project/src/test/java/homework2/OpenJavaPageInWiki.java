@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class OpenJavaPageInWiki extends TestBase {
 
   @Test
-  public void OpenWikiJavaTest() {
+  public void OpenWikiJavaTest (){
 
 
     typeInFieldSearch();
@@ -15,10 +15,10 @@ public class OpenJavaPageInWiki extends TestBase {
     clickOnTheButtonSearch();
 
 
+
     String currentUrl = wd.getCurrentUrl();
-    Assert.assertEquals("currentUrl", "https://en.wikipedia.org/wiki/Java");
+    Assert.assertEquals("currentUrl","https://en.wikipedia.org/wiki/Java");
 
   }
 
 }
-
