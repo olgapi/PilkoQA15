@@ -7,10 +7,10 @@ public class ContactModificationTests extends TestBase {
   public void TestContactModification() {
 
 
-    initContactModificion();
-    fillContactForm("Haim", "Mizrahi", "Zarhin 7,Raanana", "123456677", "xeppottuttux-7403@yopmail.com");
+    app.initContactModificion();
+    app.fillContactForm("Haim", "Mizrahi", "Zarhin 7,Raanana", "123456677", "xeppottuttux-7403@yopmail.com");
 
-    submitContactModification();
+    app.submitContactModification();
 
 
   }
