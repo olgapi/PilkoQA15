@@ -1,9 +1,10 @@
 package com.telRan.addressbook.model;
 
 public class Group {
-  private String groupName;
-  private String groupHeader;
-  private String groupFooter;
+  private String groupName = "";
+  private String groupHeader = "";
+  private String groupFooter = "";
+
 
 
 

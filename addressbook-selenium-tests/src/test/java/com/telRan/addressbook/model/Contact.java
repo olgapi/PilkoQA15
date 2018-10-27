@@ -2,11 +2,11 @@ package com.telRan.addressbook.model;
 
 public class Contact {
 
-  private String name;
-  private String lastName;
-  private String address;
-  private String phone;
-  private String email;
+  private String name = "";
+  private String lastName = "";
+  private String address = "";
+  private String phone = "";
+  private String email = "";
 
   public String getName() {
     return name;

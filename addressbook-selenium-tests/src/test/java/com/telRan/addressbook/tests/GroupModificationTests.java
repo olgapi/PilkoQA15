@@ -28,7 +28,7 @@ public class GroupModificationTests extends TestBase {
             .setGroupHeader("modifyed")
             .setGroupName("new")
             .setGroupFooter("Changed"));
-    app.submitModification();
+    app.getGroupHelper().submitGroupModification();
     app.getGroupHelper().returnToGroupsPage();
 
     int after = app.getGroupHelper().getGroupsCount();
