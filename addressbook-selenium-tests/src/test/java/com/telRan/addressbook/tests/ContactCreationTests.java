@@ -8,7 +8,7 @@ public class ContactCreationTests extends TestBase {
 
   @Test
   public void testContactCreation() {
-    
+
 
     int before = app.getContactHelper().getContactsCount();
 

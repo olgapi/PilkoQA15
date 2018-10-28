@@ -1,6 +1,7 @@
 package com.telRan.addressbook.tests;
 
 import com.telRan.addressbook.model.Contact;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -17,7 +18,7 @@ public class ContactModificationTests extends TestBase {
   @Test
   public void TestContactModification() {
 
-
+    int before = app.getContactHelper().getContactsCount();
     app.getContactHelper().initContactModification();
     app.getContactHelper().fillContactForm(new Contact()
             .setName("VovaAAAAAA")
@@ -27,7 +28,9 @@ public class ContactModificationTests extends TestBase {
             .setEmail("vladimir-7403@yopmail.com"));
 
     app.getContactHelper().submitContactModification();
+    int after = app.getContactHelper().getContactsCount();
 
+    Assert.assertEquals(after,before);
   }
 
 }

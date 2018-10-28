@@ -1,4 +1,4 @@
-package com.telran.homework.tests;
+package com.telran.homework.tests.model;
 
 public class Account {
   String userName;
@@ -20,5 +20,6 @@ public class Account {
   public Account setPassword(String password) {
     this.password = password;
     return this;
+
   }
 }
