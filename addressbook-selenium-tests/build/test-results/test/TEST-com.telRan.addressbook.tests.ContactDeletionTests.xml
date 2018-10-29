@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telRan.addressbook.tests.ContactDeletionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-10-29T17:11:46" hostname="LAPTOP-DV1HDH2R" time="3.305">
+  <properties/>
+  <testcase name="testContactDeletion" classname="com.telRan.addressbook.tests.ContactDeletionTests" time="3.305"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
