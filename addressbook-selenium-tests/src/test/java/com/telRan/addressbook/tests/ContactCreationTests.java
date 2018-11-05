@@ -25,9 +25,7 @@ public class ContactCreationTests extends TestBase {
 
 
     int after = app.getContactHelper().getContactsCount();
-
-    Assert.assertEquals(after,before+1);
-
+    Assert.assertEquals(after, before + 1);
 
 
   }
