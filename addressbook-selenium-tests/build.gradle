@@ -17,7 +17,7 @@ dependencies {
     compile 'org.seleniumhq.selenium:selenium-java:3.141.0'}
 test {
     useTestNG()
-    suites 'src/test/resourses/testng.xml'
+    suites 'src/test/resources/testng.xml'
     if (projects.hasProperty("browser")) {
         systemProperty 'browser', "${browser}"
     }
