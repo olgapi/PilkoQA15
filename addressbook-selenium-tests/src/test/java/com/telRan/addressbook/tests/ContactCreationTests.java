@@ -1,6 +1,7 @@
 package com.telRan.addressbook.tests;
 
 import com.telRan.addressbook.model.Contact;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -25,6 +26,7 @@ public class ContactCreationTests extends TestBase {
 
 
     int after = app.getContactHelper().getContactsCount();
+    System.out.println("before=" + before +" after=" + after );
     Assert.assertEquals(after, before + 1);
 
 

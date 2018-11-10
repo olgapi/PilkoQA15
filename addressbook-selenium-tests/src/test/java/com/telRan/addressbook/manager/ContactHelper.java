@@ -36,20 +36,27 @@ public class ContactHelper extends HelperBase{
 
 
   public void initContactModification() {
+
     click(By.cssSelector("[title='EDIT']"));
   }
 
+  public void selectHome() {
+    click(By.cssSelector("a[href='./']"));
+  }
   public void selectContact() {
+    selectHome();
     click(By.name("selected[]"));
   }
 
   public void deleteContact() {
+    //selectHome(); // TODAy REMOVED
+    selectContact(); // TODAY ADDED
     click(By.cssSelector("[onclick='DeleteSel()']"));
     wd.switchTo().alert().accept();
   }
 
   public boolean isContactPresent(){
-
+    selectHome();
     boolean result =  isElementPresent(By.name("selected[]")); //todo
     return result;
 
@@ -63,10 +70,12 @@ public class ContactHelper extends HelperBase{
     submitContactCreation();
   }
   public int getContactsCount() {
+    selectHome();
     return wd.findElements(By.name("selected[]")).size();
   }
 
   public void selectContactByIndex(int index) {
+    selectHome();
     wd.findElements(By.name("selected[]")).get(index).click();
   }
 }
