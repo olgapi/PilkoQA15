@@ -11,6 +11,15 @@ public class HelperBase {
     this.wd = wd;
   }
 
+  void sleep(int milliseconds) {
+    try {
+      Thread.sleep(milliseconds);
+    }
+    catch (InterruptedException e) {
+    }
+  }
+
+
   public void type(By locator, String text) {
     click(locator);
     wd.findElement(locator).clear();
@@ -19,6 +28,7 @@ public class HelperBase {
 
   public void click(By locator) {
     wd.findElement(locator).click();
+    sleep(100);
   }
 
   public boolean isElementPresent(By locator) {
