@@ -1,0 +1,12 @@
+4075 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testtestGroupCreation
+4075 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testGroupCreation
+5738 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testGroupCreation
+5738 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testtestGroupCreation
+5738 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testtestGroupCreation
+5738 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testGroupCreation
+7412 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testGroupCreation
+7412 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testtestGroupCreation
+7412 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testtestGroupCreation
+7412 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testGroupCreation
+9320 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testGroupCreation
+9320 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testtestGroupCreation

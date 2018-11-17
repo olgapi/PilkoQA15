@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: org.seleniumhq.selenium:selenium-java:3.141.0">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/addressbook-selenium-tests/Could not resolve org.seleniumhq.selenium:selenium-java:3.141.0." />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-java/3.141.0/6422b0ece57c3ecc406f716285f20ff98de9831b/selenium-java-3.141.0.jar!/" />
     </CLASSES>
     <JAVADOC />

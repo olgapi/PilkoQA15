@@ -1,0 +1,12 @@
+4157 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testtestGroupCreation
+4157 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testGroupCreation
+5859 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testGroupCreation
+5859 [main] INFO  c.telRan.addressbook.tests.TestBase - StoptestGroupCreation
+5859 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testtestGroupCreation
+5859 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testGroupCreation
+7465 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testGroupCreation
+7465 [main] INFO  c.telRan.addressbook.tests.TestBase - StoptestGroupCreation
+7465 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testtestGroupCreation
+7465 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testGroupCreation
+9118 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testGroupCreation
+9119 [main] INFO  c.telRan.addressbook.tests.TestBase - StoptestGroupCreation

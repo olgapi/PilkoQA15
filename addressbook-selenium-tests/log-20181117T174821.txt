@@ -1,0 +1,6 @@
+4117 [main] INFO  c.telRan.addressbook.tests.TestBase - StarttestContactCreation
+6709 [main] INFO  c.telRan.addressbook.tests.TestBase - StoptestContactCreation
+6709 [main] INFO  c.telRan.addressbook.tests.TestBase - StarttestContactCreation
+9211 [main] INFO  c.telRan.addressbook.tests.TestBase - StoptestContactCreation
+9212 [main] INFO  c.telRan.addressbook.tests.TestBase - StarttestContactCreation
+11875 [main] INFO  c.telRan.addressbook.tests.TestBase - StoptestContactCreation

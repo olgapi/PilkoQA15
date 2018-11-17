@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telRan.addressbook.tests.ContactCreationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-10T13:43:55" hostname="LAPTOP-DV1HDH2R" time="1.186">
+<testsuite name="com.telRan.addressbook.tests.ContactCreationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-11-17T12:32:09" hostname="LAPTOP-DV1HDH2R" time="7.518">
   <properties/>
-  <testcase name="testContactCreation" classname="com.telRan.addressbook.tests.ContactCreationTests" time="1.186"/>
-  <system-out><![CDATA[before=63 after=64
+  <testcase name="testContactCreation[0](com.telRan.addressbook.model.Contact@424d9d1f)" classname="com.telRan.addressbook.tests.ContactCreationTests" time="2.369"/>
+  <testcase name="testContactCreation[1](com.telRan.addressbook.model.Contact@72b51cc2)" classname="com.telRan.addressbook.tests.ContactCreationTests" time="2.6"/>
+  <testcase name="testContactCreation[2](com.telRan.addressbook.model.Contact@5b99f748)" classname="com.telRan.addressbook.tests.ContactCreationTests" time="2.549"/>
+  <system-out><![CDATA[before=66 after=67
+before=67 after=68
+before=68 after=69
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

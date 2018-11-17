@@ -1,6 +1,8 @@
 package com.telRan.addressbook.tests;
 
 import com.telRan.addressbook.model.Group;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -11,8 +13,13 @@ import java.util.Iterator;
 import java.util.List;
 
 public class GroupCreationTests extends TestBase {
+ // Logger logger = LoggerFactory.getLogger(GroupCreationTests.class);
+
+ //potom perenesli v TestBase
+
   @DataProvider
   public Iterator<Object[]> validGroups() throws IOException {
+
 
     List<Object[]> list = new ArrayList<>();
 
@@ -39,6 +46,7 @@ public class GroupCreationTests extends TestBase {
 
   @Test(dataProvider = "validGroups")
   public void testGroupCreation(Group group) {
+  logger.info("Start testGroupCreation");//potom perenesetsya v TestBase
 
     app.getGroupHelper().openGroupsPage();
     int before = app.getGroupHelper().getGroupsCount();
@@ -56,6 +64,7 @@ public class GroupCreationTests extends TestBase {
     int after = app.getGroupHelper().getGroupsCount();
 
     Assert.assertEquals(after, before + 1);
+    logger.info("Stop testGroupCreation");//potom perenesem v TestBase
   }
 
 }

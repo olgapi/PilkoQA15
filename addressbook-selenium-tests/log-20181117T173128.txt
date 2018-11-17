@@ -1,0 +1,6 @@
+4825 [main] INFO  c.t.a.tests.GroupCreationTests - Start testGroupCreation
+6484 [main] INFO  c.t.a.tests.GroupCreationTests - Stop testGroupCreation
+6484 [main] INFO  c.t.a.tests.GroupCreationTests - Start testGroupCreation
+8197 [main] INFO  c.t.a.tests.GroupCreationTests - Stop testGroupCreation
+8213 [main] INFO  c.t.a.tests.GroupCreationTests - Start testGroupCreation
+9852 [main] INFO  c.t.a.tests.GroupCreationTests - Stop testGroupCreation

@@ -1,0 +1,12 @@
+4092 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testtestGroupCreation
+4092 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testGroupCreation
+5934 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testGroupCreation
+5934 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testtestGroupCreation
+5934 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testtestGroupCreation
+5934 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testGroupCreation
+7686 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testGroupCreation
+7686 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testtestGroupCreation
+7702 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testtestGroupCreation
+7702 [main] INFO  c.telRan.addressbook.tests.TestBase - Start testGroupCreation
+9494 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testGroupCreation
+9494 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop testtestGroupCreation

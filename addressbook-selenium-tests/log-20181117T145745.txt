@@ -1,0 +1,6 @@
+4203 [main] INFO  c.t.a.tests.GroupCreationTests - Start testGroupCreation
+5766 [main] INFO  c.t.a.tests.GroupCreationTests - Stop testGroupCreation
+5767 [main] INFO  c.t.a.tests.GroupCreationTests - Start testGroupCreation
+7383 [main] INFO  c.t.a.tests.GroupCreationTests - Stop testGroupCreation
+7383 [main] INFO  c.t.a.tests.GroupCreationTests - Start testGroupCreation
+8904 [main] INFO  c.t.a.tests.GroupCreationTests - Stop testGroupCreation

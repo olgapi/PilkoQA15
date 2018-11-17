@@ -1,0 +1,6 @@
+4106 [main] INFO  c.telRan.addressbook.tests.TestBase - Start test testContactCreation
+6755 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop test testContactCreation
+6756 [main] INFO  c.telRan.addressbook.tests.TestBase - Start test testContactCreation
+9253 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop test testContactCreation
+9253 [main] INFO  c.telRan.addressbook.tests.TestBase - Start test testContactCreation
+11867 [main] INFO  c.telRan.addressbook.tests.TestBase - Stop test testContactCreation

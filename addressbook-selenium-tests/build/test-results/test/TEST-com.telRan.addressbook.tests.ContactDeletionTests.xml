@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telRan.addressbook.tests.ContactDeletionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-10T13:43:58" hostname="LAPTOP-DV1HDH2R" time="0.766">
+<testsuite name="com.telRan.addressbook.tests.ContactDeletionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-17T12:32:20" hostname="LAPTOP-DV1HDH2R" time="1.44">
   <properties/>
-  <testcase name="testContactDeletion" classname="com.telRan.addressbook.tests.ContactDeletionTests" time="0.766"/>
+  <testcase name="testContactDeletion" classname="com.telRan.addressbook.tests.ContactDeletionTests" time="1.44"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
